@@ -43,4 +43,9 @@ public class SecurityConfig {
         authProvider.setPasswordEncoder(new BCryptPasswordEncoder());
         return new ProviderManager(authProvider);
     }
+
+    @Bean
+    public PasswordEncoder passwordEncoder() { // Adicionado como Bean
+        return new BCryptPasswordEncoder();
+    }
 }
