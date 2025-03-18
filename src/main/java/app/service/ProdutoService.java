@@ -1,6 +1,6 @@
 package app.service;
 
-import app.entity.Produto;
+import app.model.Produto;
 import app.exceptions.RecursoNaoEncontradoException;
 import app.repository.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;

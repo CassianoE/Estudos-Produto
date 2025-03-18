@@ -1,7 +1,7 @@
 package app.controller;
 
 
-import app.entity.Produto;
+import app.model.Produto;
 import app.exceptions.RecursoNaoEncontradoException;
 import app.service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
-import java.net.URL;
 import java.util.List;
 
 @RestController
